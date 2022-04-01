@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+         background-color: #fffdf7;
+     }
+
+       
+ #navBarFreshly{
+    display: flex;
+    width: 105%;
+    height: 4.3rem;
+  
+    margin-left: -1rem;
+    margin-top: -6rem;
+    margin-right: -3rem;
+    position: fixed;
+    background-color: #ffff;
+    z-index: 1000;
+}
+#freshlyLogoId{
+    width: 6.6rem;
+    height: 2rem;
+    margin-top: 1.3rem;
+    margin-left: 1.4rem;
+}
+.navbarBtnDiv{
+   
+    margin-left: +22rem;
+}
+.navbarBtnDiv>button{
+    border: none;
+    background-color:#ffff ;
+    margin-top: 0.5rem;
+    color: rgb(0, 0, 0);
+    margin-left: 2rem;
+}
+.checkOutMainDiv{
+    width: 90%;
+    height: 1100px;
+  
+    margin: auto;
+    margin-top: 6rem;
+    display: flex;
+}
+#checkOutDiv{
+    
+    width: 52%;
+    margin: 1%;
+}
+#checkOutDiv>h2{
+    font-weight: 400;
+}
+#orderSummaryDiv{
+    width: 44%;
+    margin: 1%;
+   
+}
+#orderSummaryDiv>h2{
+    font-weight: 400;
+
+}
+#innerCheckOutDiv{
+    width: 96%;
+ border: 0.1px solid rgb(0, 0, 0,0.1);
+    margin: 1%;
+    height: 990px;
+    background-color: white;
+    padding: 4%;
+    
+}
+
+#innerOrderDiv{
+    width: 96%;
+    border: 0.1px solid rgb(0, 0, 0,0.1);
+ 
+    margin: 1%;
+    height: 990px;
+
+    padding: 4%;
+}
+.firstName{
+     width: 44%;
+  
+     float: left;
+
+}
+.lastName{
+  width: 44%;
+
+  float: left;
+  margin-left: 1rem;
+}
+.firstName>input{
+  width: 100%;
+  height: 2.5rem;
+}
+.lastName>input{
+  width: 100%;
+  height: 2.5rem;
+}
+.fullNameDiv{
+  width: 91%;
+  margin-top: 8rem;
+
+
+
+}
+.fullNameDiv>input{
+  width: 100%;
+  height: 2.5rem;
+}
+.fullNameDiv2{
+width: 91%;
+  
+
+}
+.fullNameDiv2>input{
+width: 100%;
+  height: 2.5rem;
+}
+
+.phoneState{
+width: 91%;
+  
+
+  display: flex;
+}
+.phoneState>div{
+  margin-right: 1rem;
+
+}
+.phoneState>div>input{
+  height: 2.5rem;
+ 
+}
+#nextSubmitBtn{
+width: 100%;
+  height: 2.5rem;
+  color: white;
+  background-color: #3265f6;
+  border: none;
+}
+#totalValueShow{
+margin-top: -5rem;
+margin-left: 27rem;
+}
+.deliverPromo{
+width: 100%;
+height: 20rem;
+border: 0.1px solid rgb(0, 0, 0,0.1);
+
+padding: 3%;
+background-color: white;
+}
+#deliveryDateDisplay{
+width: 100%;
+height: 2.5rem;
+border:0.1px solid rgb(0, 0, 0,0.1);
+}
+#rightDivFixed{
+width: 100%;
+height: 30rem;
+background-color: white;
+border: 0.1px solid rgb(0, 0, 0,0.1);
+overflow: scroll;
+display: flex;
+flex-direction: column;
+
+}
+#rightDivFixed>div{
+border: 0.1px solid rgb(0, 0, 0,0.1);
+display: flex;
+}
+
+#rightDivFixed>div>img{
+width: 4rem;
+height: 4rem;
+margin: 1rem;
+
+}
+#email1{
+width: 100%;
+height: 2.5rem;
+border: 0.1px solid rgb(0, 0, 0,0.5);
+padding: 2%;
+
+}
+#totalPrice{
+margin-top: -2rem;
+margin-left: 21.5rem;
+}
+#showTotalPrice{
+margin-top: -2rem;
+margin-left: 21.5rem;
+}

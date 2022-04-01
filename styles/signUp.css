@@ -1,0 +1,142 @@
+#navBarFreshly{
+    display: flex;
+    width: 105%;
+    height: 4.3rem;
+  
+    margin-left: -1rem;
+    margin-top: -1rem;
+    margin-right: -3rem;
+    position: fixed;
+    background-color: #fffdf7;
+    z-index: 1000;
+}
+
+#freshlyLogoId{
+    width: 6.6rem;
+    height: 2rem;
+    margin-top: 1.3rem;
+    margin-left: 1.4rem;
+}
+.navbarBtnDiv{
+   
+    margin-left: +22rem;
+}
+.navbarBtnDiv>button{
+    border: none;
+    background-color:#fffdf7 ;
+    margin-top: 0.5rem;
+    color: rgb(0, 0, 0,0.4);
+    margin-left: 2rem;
+}
+
+#navbarSignUpDiv{
+    display: flex;
+    margin-left: 25rem;
+}
+#navbarLogin{
+    border: none;
+    background-color:#fffdf7 ;
+    margin-top: 0.5rem;
+}
+#navbarSignup{
+background-color:#3265f6 ;
+border: none;
+height: 3rem;
+width: 5rem;
+margin-top: 0.8rem;
+color: white;
+}
+.signUpDiv{
+background-image: url("https://res.cloudinary.com/freshly/image/upload/c_crop,g_auto,dpr_auto,q_30,w_1500,h_900/v1494958610/joinnow-southchicken.jpg");
+width: 105%;
+margin-left: -1rem;
+height: 36rem;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+}
+.innerSignUpDiv{
+position: absolute;
+
+width: 60%;
+height: 26rem;
+background-color: rgb(255, 255, 255,0.7);
+margin-top: 6.5rem;
+margin-left: 19rem;
+}
+.innerSignUpDiv>h1,h2{
+margin-left: 2rem;
+margin-top: 2rem;
+font-weight: 300;
+
+}
+#inputDisplay{
+display: flex;
+margin-left: 2rem;
+margin-top: 2rem;
+}
+#inputDisplay>input{
+height: 2.7rem;
+background-color: rgb(255, 255, 255,0.8);
+border: 0.1px solid rgb(0, 0, 0,0.6);
+}
+#emailSignUp{
+width: 15rem;
+}
+#ZipSignUP{
+width: 10rem;
+margin-left: 1rem;
+}
+
+#submitBtn{
+width: 9rem;
+margin-left: 1rem;
+height: 2.85rem;
+color: white;
+background-color: #3265f6;
+border: none;
+}
+.innerSignUpDiv>p{
+margin-left: 2rem;
+margin-top:   0rem;
+font-size: 0.9rem;
+}
+#hidden{
+margin-top: 4rem;
+margin-left: -10rem;
+
+border: none;
+color: red;
+font-size: 0.8rem;
+}
+
+#footerSignUp{
+
+    width: 105%;
+    height: 750px;
+    margin-left: -1rem;
+    background-color: 
+    #fffdf7;
+}
+#footerSignUp>h1{
+    font-weight: 300;
+    text-align: center;
+    margin-top: 3rem;
+}
+#innerFooterDiv{
+    width: 80%;
+    margin: auto;
+    height: 600px;
+    margin-top: 4rem;
+   
+    
+}
+#innerFooterDiv>div{
+    height: 4rem;
+    
+}
+#innerFooterDiv>div>h3{
+    font-weight: 300;
+
+}

@@ -1,65 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<style>
-    #footer-div{
-        display: flex;
-        width: 60%;
-        height: 400px;
-        justify-content: space-around;
-        margin: auto;
-    }
-    #footer-img{
-        width: 35%;
-    }
-    #site-logo{
-        margin-top: 100px;
-    }
-   #second{
-       margin-top: 80px;
-       margin-left: -200px;
-   }
-   #third{
-       margin-top: 80px;
-   }
-   #fourth{
-       margin-top: 80px;
-   }
-   #social-icons{
-       width: 150px;
-       margin-left: -30px;
-       margin-top: -20px;
-   }
-   #istore-icon{
-       width: 150px;
-       margin-left: -10px;
-       margin-top: -30px;
-   }
-   #playstore-icon{
-       width: 150px;
-       margin-left: -10px;
-       margin-top: -10px;
-   }
-   .font-style{
-       font-family: Favoritfreshly, sans-serif;
-       font-size: 13px;
-       font-weight: 400;
-       color: #666666;
-   }
-   .head-font{
-       font-size: 16px;
-       color: #333333;
-       font-family: Favoritfreshly, sans-serif;
-       font-weight: 400;
-   }
-</style>
-<body>
-    <hr>
+const footer = () =>{
+    return `
     <div id="footer-div">
         <div id="site-logo">
             <img id="footer-img" src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5fc4feea074f5b86a6c62285_freshly-logo-R.svg
@@ -97,5 +37,7 @@
              alt="">
         </div>
     </div>
-</body>
-</html>
+    `
+}
+
+export default footer;

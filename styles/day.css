@@ -1,0 +1,131 @@
+body{
+    background-color: #fffdf7;
+}
+
+   #navBarFreshly{
+display: flex;
+width: 105%;
+height: 4.3rem;
+
+margin-left: -1rem;
+margin-top: -5rem;
+margin-right: -3rem;
+position: fixed;
+background-color: #ffff;
+z-index: 1000;
+}
+
+#freshlyLogoId{
+width: 6.6rem;
+height: 2rem;
+margin-top: 1.3rem;
+margin-left: 1.4rem;
+}
+.navbarBtnDiv{
+
+margin-left: +22rem;
+}
+.navbarBtnDiv>button{
+border: none;
+background-color:#ffff ;
+margin-top: 0.5rem;
+color: rgb(0, 0, 0,0.4);
+margin-left: 2rem;
+}
+.navbarBtnDiv>button:nth-child(1){
+color: black;
+}
+.navbarBtnDiv>button:nth-child(2){
+color: black;
+}
+.middleDiv{
+
+width: 100%;
+height: 600px;
+
+margin-top: 5rem;
+display: flex;
+flex-direction: column;
+}
+.middleDiv>h1{
+font-weight: 500;
+text-align: center;
+margin-top: 2rem;
+}
+#DayDiv{
+
+width: 29%;
+height: 21rem;
+margin: auto;
+overflow: scroll;
+}
+#DayDiv>div{
+border: 0.1px solid rgb(0, 0, 0,0.3);
+width: 93%;
+height: 2.2rem;
+padding: 2%;
+}
+#DayDiv>div:hover{
+margin-left: 0.5rem;
+}
+#DayDiv>div>h4,p{
+display: inline;
+
+
+}
+.middleDiv>p{
+text-align: center;
+font-size: 0.8rem;
+}
+.middleDiv>button{
+border: none;
+
+width: 29%;
+margin: auto;
+height: 2.7rem;
+background-color:#3265f6 ;
+color: white;
+}
+
+.subDivActive{
+margin-left: 0.5rem;
+
+}
+#hiddenInput{
+border: none;
+width: 29%;
+height: 2.6rem;
+background-color: #fffdf7;
+margin: auto;
+
+}
+
+#footerSignUp{
+
+    width: 105%;
+    height: 750px;
+    margin-left: -1rem;
+    background-color: 
+    #fffdf7;
+}
+#footerSignUp>h1{
+    font-weight: 300;
+    text-align: center;
+    margin-top: 3rem;
+}
+#innerFooterDiv{
+    width: 80%;
+    margin: auto;
+    height: 600px;
+    margin-top: 4rem;
+   
+    
+}
+#innerFooterDiv>div{
+    height: 4rem;
+    
+}
+#innerFooterDiv>div>h3{
+    font-weight: 300;
+
+}

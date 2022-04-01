@@ -1,0 +1,163 @@
+
+body{
+    background-color: #fffdf7;
+}
+         .thirdDivHome{
+            height: 550px;
+            width: 100%;
+          
+            background-color: #fffdf7;
+            
+            margin-top: 6rem;
+            
+        }
+        .thirdDivs{
+            display: grid;
+            grid-template-columns: 20% 20% 20% 20% 20%;
+            margin-left: 4rem;
+            margin-top: 4rem;
+        }
+        .thirdDivs>div{
+            height: 14rem;
+            width: 13rem;
+            box-shadow: 1.5px 1.5px 1.5px 1.5px rgb(0, 0, 0,0.2);
+            background-color: white;
+        }
+        .thirdDivText{
+            display: flex;
+            flex-direction: column;
+
+        }
+        .thirdDivText>h1,p{
+            text-align: center;
+        }
+        .thirdDivs>div>h3{
+            margin-top: 2.5rem;
+              text-align: center;
+        }
+        .thirdDivs>div>p{
+            margin-top: -0.8rem;
+            font-size: 0.8rem;
+            color: grey;
+
+        }
+        .thirdDivs>div>h4{
+            margin-top: 2.5rem;
+              text-align: center;
+            
+        }
+        .thirdDivs>div>button{
+            background-color: #3265f6;
+            color: white;
+            margin-left: 2.5rem;
+            width: 8rem;
+            height: 2rem;
+            border: none;
+        }
+        .thirdDivHome>p{
+            text-align: center;
+            margin-top: 3rem;
+            font-size: 0.8rem;
+            color: grey;
+        }
+
+
+#navBarFreshly{
+    display: flex;
+    width: 105%;
+    height: 4.3rem;
+  
+    margin-left: -1rem;
+    margin-top: -6rem;
+    margin-right: -3rem;
+    position: fixed;
+    background-color: #ffff;
+    z-index: 1000;
+    
+}
+
+#freshlyLogoId{
+    width: 6.6rem;
+    height: 2rem;
+    margin-top: 1.3rem;
+    margin-left: 1.4rem;
+}
+.navbarBtnDiv{
+   
+    margin-left: +22rem;
+}
+.navbarBtnDiv>button{
+    border: none;
+    background-color:#ffff ;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    color: rgb(0, 0, 0,0.3);
+}
+.navbarBtnDiv>button:nth-child(1){
+    color: black;
+}
+
+#navbarSignUpDiv{
+    display: flex;
+    margin-left: 25rem;
+}
+#navbarLogin{
+    border: none;
+    background-color:#fffdf7 ;
+    margin-top: 0.5rem;
+}
+#navbarSignup{
+background-color:#3265f6 ;
+border: none;
+height: 3rem;
+width: 5rem;
+margin-top: 0.8rem;
+color: white;
+}
+
+#footerSignUp{
+
+    width: 105%;
+    height: 750px;
+    margin-left: -1rem;
+    background-color: 
+    #fffdf7;
+}
+#footerSignUp>h1{
+    font-weight: 300;
+    text-align: center;
+    margin-top: 3rem;
+}
+#innerFooterDiv{
+    width: 80%;
+    margin: auto;
+    height: 600px;
+    margin-top: 4rem;
+   
+    
+}
+#innerFooterDiv>div{
+    height: 4rem;
+    
+}
+#innerFooterDiv>div>h3{
+    font-weight: 300;
+
+}
+#meal-menu{
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: center;
+    width: 85%;
+    height: 240px;
+    gap: 12px;
+}
+#meal-menu > div{
+    width: 25%;
+    height: 100%;
+    text-align: center;
+}
+#meal-menu > div > img{
+    width: 100%;
+}
