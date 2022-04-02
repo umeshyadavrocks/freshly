@@ -1,0 +1,237 @@
+.content{
+    width: 100%;
+    height: 30px;
+    display: flex;
+  justify-content: center;
+}
+#main{
+    width: 6%;
+    height: 30px;
+    border-bottom: 2px solid rgb(38, 59, 38);
+    text-align: center;
+    cursor: pointer;
+}
+#main > img{
+   width: 60%;
+  
+}
+#business{
+   width: 6%;
+   text-align: center;
+   height: 30px;
+   border-bottom: 2px solid rgb(38, 59, 38);
+   margin-left: 30px;
+   cursor: pointer;
+}
+#business > img{
+   width: 60%;
+}
+
+#mid-content{
+   display: flex;
+   width: 100%;
+   height: 600px;
+   background-color: #fef9ea;
+}
+#left{
+   width: 45%;
+   text-align: center;
+   
+  
+}
+#right{
+   width: 55%;
+   color: white;
+   position: relative;
+   
+}
+#right > img{
+   width: 100%;
+   height: 100%;
+} 
+#title{
+   width: 90%;
+   margin-top: 100px;
+   font-size: 53px;
+   line-height: 58px;
+   font-family: Favoritfreshly, sans-serif;
+   font-weight: 700;
+   color: #333333;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+}
+#areameals{
+   color: #333333;
+   font-size: 20px;
+   font-family: Favoritfreshly, sans-serif;
+   font-weight: 700;
+   text-align: left;
+   margin-left: 30px;
+}
+.head-font{
+font-size: 16px;
+color: #333333;
+font-family: Favoritfreshly, sans-serif;
+font-weight: 700;
+margin-left: 30px;
+}
+#mail-form{
+text-align: left;
+}
+#input-mail{
+width: 500px;
+border: none;
+padding: 12px;
+margin-left: 30px;
+border-bottom: 1px solid rgb(218, 209, 209);
+}
+#input-mail:focus{
+border: 0.5 pixel solid #2660ff;
+}
+#input-num{
+width: 300px;
+border: none;
+padding: 12px;
+margin-left: 30px;
+border-bottom: 1px solid rgb(201, 192, 192);
+}
+#input-num:focus{
+border: 0.5 pixel solid #2660ff;
+}
+.btn-explore{
+width: 180px;
+padding: 12px;
+   font-family: favoritfreshly, sans-serif;
+   font-size: 16px;
+   font-weight: 700;
+   cursor: pointer;
+   margin-left: 20px;
+   background-color: #3167ff;
+   border: none;
+   color: white;
+}
+#image-btn{
+position: absolute;
+margin-left: 450px;
+margin-top: 470px;
+}
+#pos-h1{
+position: absolute;
+margin-left: 450px;
+margin-top: 390px;
+}
+#pos-p{
+position: absolute;
+margin-left: 450px;
+margin-top: 430px;
+}
+#right-image{
+position: absolute;
+}
+#menu-container{
+width: 100%;
+height: 900px;
+margin-top: 50px;
+position: relative;
+}
+#menu-image{
+position: absolute;
+width: 100%;
+height: 100%;
+}
+#menu-div{
+position: absolute;
+background-color: white;
+width: 700px;
+height: 750px;
+justify-content: center;
+margin-left: 300px;
+margin-top: 80px;
+}
+#box-menu{
+width: 90%;
+display: grid;
+grid-gap: 2%;
+margin: auto;
+grid-template-columns: repeat(3,1fr);
+}
+#box-menu > div{
+width: 80%;
+margin-left: 20px;
+}
+#viewbtn{
+width: 600px;
+margin-left: 50px;
+}
+#box-menu > div > img{
+width: 100%;
+height: 150px;
+border-radius: 5px;
+}
+#box-menu > div > h5{
+font-size: 16px;
+font-family: Favoritfreshly, sans-serif;
+color: #357471;
+font-weight: 700;
+}
+#review-div{
+text-align: center;
+margin-top: 50px;
+}
+#meal-menu{
+display: flex;
+margin: auto;
+margin-top: 50px;
+justify-content: center;
+width: 85%;
+height: 240px;
+gap: 12px;
+}
+#meal-menu > div{
+width: 25%;
+height: 100%;
+text-align: center;
+}
+#meal-menu > div > img{
+width: 100%;
+}
+#btndiv{
+text-align: center;
+}
+#menu-list{
+display: flex;
+justify-content: center;
+}
+
+
+#image-over{
+display: flex;
+justify-content: end;
+}
+#over-image{
+position: relative;
+width: 50%;
+}
+#image-div{
+width: 600px;
+height: 300px;
+margin-top: 100px;
+margin-right:500px;
+background-color: white;
+position: absolute;
+}
+.headstyle{
+font-size: 40px;
+font-family: Favoritfreshly, sans-serif;;
+font-weight: 700;
+color: #333333;
+margin-left: 20px;
+}
+.parastyle{
+font-size: 18px;
+font-family: Favoritfreshly, sans-serif;;
+font-weight: 400;
+color: #333333;
+margin-left: 20px;
+}

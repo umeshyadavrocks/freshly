@@ -341,4 +341,12 @@ let freshlyData = [
          
     }
     ];
+
+    function mappingDataFetcher() {
+        localStorage.setItem("accessData", JSON.stringify(freshlyData));
+        return freshlyData;
+      }
+      
+      export default mappingDataFetcher;
+     
     
